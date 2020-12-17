@@ -5,15 +5,15 @@ module.exports = [
     message: 'this registery is private?',
   },
 
-  { type: 'input', author: 'author', message: 'author?' },
+  { type: 'input', name: 'author', message: 'author?' },
   {
     type: 'input',
-    author: 'description',
+    name: 'description',
     message: 'description?',
   },
   {
     type: 'input',
-    author: 'license',
+    name: 'license',
     message: 'license?',
   },
 ];
